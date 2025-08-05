@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information About cows</title>
+</head>
+
+<body>
+    <h1>Information About Cows</h1>
+<!-- This section contains lists -->
+    <section>
+        <h2>Common cow breeds</h2>
+        <ol>
+            <li>Fresians</li>
+            <li>Ayrshire</li>
+            <li>Jersey</li>
+            <li>Guernsey</li>
+            <li>Brown Swiss</li>
+        </ol>
+        <h2>How to care for cows</h2>
+        <p>Cows need clean water, good nutrition, regular veterinary care, and shelter. Milking cows should be kept in clean, dry environments to avoid infections</p>
+
+        <h2>Benefits of Dairy Farming</h2>
+        <ul>
+            <li>Milk production</li>
+            <li>Inorganic Manure</li>
+            <li>income for farmers</li>
+            <li>Food security</li>
+        </ul>
+    </section>
+
+    <section>
+<!-- This section contain a table -->
+<h2>Comparison of Cow Breeds</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Breed</th>
+            <th>Origin</th>
+            <th>Milk Production</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Friesian</td>
+            <td>Netherlands</td>
+            <td>High</td>
+          </tr>
+          <tr>
+            <td>Jersey</td>
+            <td>Jersey Island (UK)</td>
+            <td>Medium-High</td>
+          </tr>
+          <tr>
+            <td>Ayrshire</td>
+            <td>Scotland</td>
+            <td>Medium</td>
+          </tr>
+          <tr>
+            <td>Guernsey</td>
+            <td>Guernsey Island (UK)</td>
+            <td>Medium</td>
+          </tr>
+          <tr>
+            <td>Brown Swiss</td>
+            <td>Switzerland</td>
+            <td>High</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    
+    
+<!-- This section contains media elements like images and video -->
+        <Section>
+            <h2>Friesian cow </h2>
+            <img src="https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg"
+            alt="Fresians cows" width="300" height="250">
+
+            <h2>Ayrshire</h2>
+            <img src="https://images.pexels.com/photos/33270414/pexels-photo-33270414.jpeg"
+            alt="Ayrshire cow" width="400" height="300">
+        </Section>
+        
+        <section>
+            <h2>Life in a Dairy Farm</h2>
+            <video width="400" controls>
+                <source src="https://youtu.be/crLNxw9yvGw?si=pfot8p-e5fZhj0Iu">
+                Your browser does not support the video tag.
+            </video>
+        
+        </section>
+        
+
+    </section>
+<!-- This section contains form -->
+    <section>
+        <h2>Contact & Feedback Form</h2>
+      <form action="#" method="post">
+
+        <fieldset>
+          <legend>Personal Information</legend>
+          
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required><br><br>
+
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="age">Age:</label><br>
+          <input type="number" id="age" name="age" min="18" max="100"><br><br>
+
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" id="dob" name="dob"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Farming Interests</legend>
+
+          <p>Which cow breeds are you interested in?</p>
+          <input type="checkbox" id="friesian" name="breeds" value="Friesian">
+          <label for="friesian">Friesian</label><br>
+
+          <input type="checkbox" id="jersey" name="breeds" value="Jersey">
+          <label for="jersey">Jersey</label><br>
+
+          <input type="checkbox" id="ayrshire" name="breeds" value="Ayrshire">
+          <label for="ayrshire">Ayrshire</label><br><br>
+
+          <p>Are you currently a dairy farmer?</p>
+          <input type="radio" id="yes" name="farmer" value="yes" required>
+          <label for="yes">Yes</label><br>
+          
+          <input type="radio" id="no" name="farmer" value="no">
+          <label for="no">No</label><br><br>
+
+          <label for="region">Choose your region:</label><br>
+          <select id="region" name="region" required>
+            <option value="">--Select--</option>
+            <option value="rift-valley">Rift Valley</option>
+            <option value="central">Central Kenya</option>
+            <option value="western">Western Kenya</option>
+            <option value="coast">Coast</option>
+          </select><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Feedback</legend>
+          <label for="comments">Your Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your feedback here..."></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset Form">
+
+      </form>
+    </section>
+
+    </section>
+</body>
+<footer>
+      <hr>
+      <p>&copy; 2025 Cow Info Hub. All rights reserved.</p>
+      <p>Contact us: <a href="kairu2532@gmail.com">info@cowinfohub.com</a></p>
+      <p>Thank you for visiting our page about cows!</p>
+    </footer>
+
+
+</html>
